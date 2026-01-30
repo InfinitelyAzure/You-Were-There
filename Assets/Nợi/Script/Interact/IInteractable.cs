@@ -1,5 +1,5 @@
 public interface IInteractable
 {
-    void Interact();
-    string GetInteractText();
+    public void Interact();
+    public string GetText();
 }

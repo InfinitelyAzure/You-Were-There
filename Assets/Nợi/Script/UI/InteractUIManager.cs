@@ -16,6 +16,7 @@ public class InteractUIManager : MonoBehaviour
 
     public void Show(string text)
     {
+        Debug.Log("AA13");
         panel.SetActive(true);
         interactText.text = text;
     }

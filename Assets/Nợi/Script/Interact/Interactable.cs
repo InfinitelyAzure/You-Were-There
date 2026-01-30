@@ -1,18 +1,18 @@
 using UnityEngine;
 using UnityEngine.Events;
-
 public class Interactable : MonoBehaviour
 {
+    public InteractType interactType;
+    public Transform PointNUM;
+    public float CharFace=-1;
+    public int Sorting=0;
     [Header("UI")]
     [TextArea]
     public string interactText = "Nhấn [E] để tương tác";
 
     [Header("Settings")]
     public bool canInteract = true;
-
-    [Header("Events")]
-    public UnityEvent onInteract;
-
+    
     public string GetText()
     {
         return interactText;
@@ -20,8 +20,6 @@ public class Interactable : MonoBehaviour
 
     public void Interact()
     {
-        if (!canInteract) return;
-
-        onInteract?.Invoke();
+        
     }
 }

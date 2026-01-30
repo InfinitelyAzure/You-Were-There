@@ -1,7 +1,10 @@
+using cherrydev;
 using UnityEngine;
 
 public class test : MonoBehaviour
 {
+    [Tooltip("Bỏ DialogPregab trong Hierarchy vô đây")][SerializeField] private DialogBehaviour dialogPrefab;
+    [Tooltip("Bỏ Scriptable lời thoại vô đây")][SerializeField] private DialogNodeGraph scriptable;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -13,5 +16,8 @@ public class test : MonoBehaviour
     {
         
     }
-    public void ttest() => Debug.Log("dc r");
+    public void ttest()
+    {
+        dialogPrefab.StartDialog(scriptable);
+    }
 }
