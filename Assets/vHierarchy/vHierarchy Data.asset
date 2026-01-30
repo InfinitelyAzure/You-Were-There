@@ -13,7 +13,41 @@ MonoBehaviour:
   m_Name: vHierarchy Data
   m_EditorClassIdentifier: VHierarchy::VHierarchy.VHierarchyData
   sceneDatas_byGuid:
-    keys: []
-    values: []
+    keys:
+    - 500face03c89bd04c8e40fa9b354f5b5
+    values:
+    - goDatas_byGlobalId:
+        keys:
+        - globalObjectIdString: GlobalObjectId_V1-2-500face03c89bd04c8e40fa9b354f5b5-625868572-0
+        - globalObjectIdString: GlobalObjectId_V1-2-500face03c89bd04c8e40fa9b354f5b5-1315720578-0
+        - globalObjectIdString: GlobalObjectId_V1-2-500face03c89bd04c8e40fa9b354f5b5-800135954-0
+        - globalObjectIdString: GlobalObjectId_V1-2-500face03c89bd04c8e40fa9b354f5b5-7479734870892172409-1954752339
+        - globalObjectIdString: GlobalObjectId_V1-2-500face03c89bd04c8e40fa9b354f5b5-7237760433544743376-1954752339
+        - globalObjectIdString: GlobalObjectId_V1-2-500face03c89bd04c8e40fa9b354f5b5-6479458851570471746-1954752339
+        values:
+        - colorIndex: 2
+          iconNameOrGuid: Folder Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: Folder Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: Canvas Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: Canvas Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: Canvas Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: PreMatCylinder
+          isIconRecursive: 0
+          isColorRecursive: 0
   bookmarks: []
   bookmarkedScenePaths: []
