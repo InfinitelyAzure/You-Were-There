@@ -4,10 +4,10 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 4f;
-
     private Rigidbody2D rb;
     private Animator anim;
-
+    public int maxHitCount = 5;
+    private int currentHit;
     private Vector2 input;
     private Vector2 lastMoveDir = Vector2.down; // hướng idle mặc định
 
@@ -57,5 +57,24 @@ public class PlayerMovement : MonoBehaviour
         {
             anim.SetTrigger("Attack");
         }
+    }
+    public void TakeHit()
+    {
+        currentHit++;
+        Debug.Log("hit");
+        if (currentHit >= maxHitCount)
+        {
+            Die();
+        }
+    }
+    void Die()
+    {
+        anim.SetTrigger("Dead");
+        
+    }
+    public void PlayerDie()
+    {
+        Time.timeScale=0;
+        this.gameObject.SetActive(false);
     }
 }
