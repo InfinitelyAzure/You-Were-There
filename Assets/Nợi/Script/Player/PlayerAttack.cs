@@ -16,7 +16,9 @@ public class PlayerAttack : MonoBehaviour
 
         foreach (var hit in hits)
         {
-            Debug.Log("Hit: " + hit.name);
+            var boss = hit.GetComponent<BossController>();
+            if(boss!=null) hit.GetComponent<BossController>().TakeHit();
+            else hit.GetComponent<Boss2Controller>().TakeHit();
         }
     }
 
