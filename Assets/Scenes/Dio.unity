@@ -427,6 +427,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 4
+  maxHitCount: 5
 --- !u!50 &1307423738
 Rigidbody2D:
   serializedVersion: 5
@@ -626,7 +627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogTrigger
   dialogPrefab: {fileID: 1826571530}
-  scriptable: {fileID: 11400000, guid: bbdecfe86f3dbe5408ecbbd10ee2c29d, type: 2}
+  scriptable: {fileID: 11400000, guid: 7f2909bbcab5fc443af2765945a3c550, type: 2}
 --- !u!4 &1315720580
 Transform:
   m_ObjectHideFlags: 0
