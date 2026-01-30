@@ -7,6 +7,7 @@ public class BossController : MonoBehaviour
     private float timer;
     public int maxHitCount = 20;
     private int currentHit;
+    private bool Isdie=false;
 
     [Header("Hitbox")]
     public Transform leftHandPoint;
@@ -23,6 +24,12 @@ public class BossController : MonoBehaviour
 
     void Update()
     {
+        if (Isdie)
+        {
+            anim.ResetTrigger("AttackLeft");
+            anim.ResetTrigger("AttackRight");
+            anim.ResetTrigger("Skill");
+        } 
         timer -= Time.deltaTime;
 
         if (timer <= 0f)
@@ -109,6 +116,7 @@ public class BossController : MonoBehaviour
 
     void Die()
     {
+        Isdie=true;
         anim.SetTrigger("Dead");
         attackCooldown=30;
     }
