@@ -15,8 +15,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 551.16656
-    y: 304.00003
+    x: 395.16663
+    y: 216.66669
     width: 190
     height: 135
   IsDragging: 1
@@ -47,8 +47,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 1045.9998
-    y: 244.66669
+    x: 889.99976
+    y: 157.33334
     width: 190
     height: 135
   IsDragging: 1
@@ -60,6 +60,37 @@ MonoBehaviour:
   ParentNodes:
   - {fileID: -4482150185158837974}
   - {fileID: -245050673457415111}
+  ChildNode: {fileID: 0}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-7120754229412142877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 332.6667
+    y: 386.6667
+    width: 190
+    height: 135
+  IsDragging: 0
+  IsSelected: 0
+  _sentence:
+    CharacterName: 
+    Text: 
+    CharacterSprite: {fileID: 0}
+  ParentNodes: []
   ChildNode: {fileID: 0}
   _isExternalFunc: 0
   _externalFunctionName: 
@@ -80,8 +111,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 812.6667
-    y: 84.66672
+    x: 656.66675
+    y: -2.666626
     width: 190
     height: 135
   IsDragging: 1
@@ -112,8 +143,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 760.00006
-    y: 298.66684
+    x: 604.0001
+    y: 211.3335
     width: 190
     height: 135
   IsDragging: 1
@@ -149,6 +180,7 @@ MonoBehaviour:
   - {fileID: -245050673457415111}
   - {fileID: -7906105104608775088}
   - {fileID: 3534181776385892688}
+  - {fileID: -7120754229412142877}
   VariablesConfig: {fileID: 0}
   _localizationTableName: 
   _characterNamesLocalizationName: 
@@ -170,8 +202,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 74.66669
-    y: 169.33334
+    x: -81.33331
+    y: 82
     width: 190
     height: 135
   IsDragging: 0
@@ -201,16 +233,16 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 309.16656
-    y: 182.66667
+    x: 153.16656
+    y: 95.33333
     width: 190
     height: 155
   IsDragging: 1
-  IsSelected: 1
+  IsSelected: 0
   Answers:
   - pick 1
   - pick 2
-  - 
+  - pick 3
   AnswerKeys: []
   ParentNodes:
   - {fileID: 3534181776385892688}
@@ -232,8 +264,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 606.66656
-    y: 95.333374
+    x: 450.66666
+    y: 8.0000305
     width: 190
     height: 135
   IsDragging: 1

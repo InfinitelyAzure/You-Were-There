@@ -26,6 +26,10 @@ MonoBehaviour:
         - globalObjectIdString: GlobalObjectId_V1-2-500face03c89bd04c8e40fa9b354f5b5-6479458851570471746-1954752339
         - globalObjectIdString: GlobalObjectId_V1-2-500face03c89bd04c8e40fa9b354f5b5-237282423-0
         - globalObjectIdString: GlobalObjectId_V1-2-500face03c89bd04c8e40fa9b354f5b5-1660987441-0
+        - globalObjectIdString: GlobalObjectId_V1-2-500face03c89bd04c8e40fa9b354f5b5-950685484-0
+        - globalObjectIdString: GlobalObjectId_V1-2-500face03c89bd04c8e40fa9b354f5b5-99626385-0
+        - globalObjectIdString: GlobalObjectId_V1-2-500face03c89bd04c8e40fa9b354f5b5-1560312360-0
+        - globalObjectIdString: GlobalObjectId_V1-2-500face03c89bd04c8e40fa9b354f5b5-1148526767-0
         values:
         - colorIndex: 2
           iconNameOrGuid: Folder Icon
@@ -49,6 +53,22 @@ MonoBehaviour:
           isColorRecursive: 0
         - colorIndex: 0
           iconNameOrGuid: PreMatCylinder
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: AvatarMask On Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: AvatarMask On Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: AvatarMask On Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+        - colorIndex: 0
+          iconNameOrGuid: AvatarMask On Icon
           isIconRecursive: 0
           isColorRecursive: 0
         - colorIndex: 0
