@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 810075108898543114}
   - component: {fileID: 203202059514637457}
   - component: {fileID: 3070961904779334667}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hospital_Black_Shadow_Singles_32x32_183
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151,9 +151,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419fab89d46279e45b556f74dbe6e4b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interactable
+  dialogPrefab: {fileID: 0}
+  scriptable: {fileID: 0}
   interactType: 1
   PointNUM: {fileID: 1023282750416204476}
-  CharFace: -1
+  CharFaceY: -1
+  CharFaceX: -1
   Sorting: 0
   interactText: "Nh\u1EA5n [E] \u0111\u1EC3 t\u01B0\u01A1ng t\xE1c"
   canInteract: 1
@@ -166,7 +169,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1023282750416204476}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}

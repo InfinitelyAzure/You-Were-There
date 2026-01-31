@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7904837525568821712}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 5961093756324401286}
   - component: {fileID: 4814331445962902850}
   - component: {fileID: 5863066102353766083}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Chair2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137,9 +137,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 419fab89d46279e45b556f74dbe6e4b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interactable
+  dialogPrefab: {fileID: 0}
+  scriptable: {fileID: 0}
   interactType: 1
   PointNUM: {fileID: 7904837525568821712}
-  CharFace: -1
+  CharFaceY: -1
+  CharFaceX: -1
   Sorting: 0
   interactText: "Nh\u1EA5n [E] \u0111\u1EC3 t\u01B0\u01A1ng t\xE1c"
   canInteract: 1
@@ -189,7 +192,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5792998999613546772}
   - component: {fileID: 4928300650046125761}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Classroom_and_Library_Singles_32x32_11_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

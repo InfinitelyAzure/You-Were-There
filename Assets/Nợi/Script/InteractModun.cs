@@ -119,7 +119,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
         anim.SetBool("Shitdown",false);
         rb.constraints &= ~RigidbodyConstraints2D.FreezePosition;
         GetComponent<PlayerMovement>().enabled=true;
-        CharSprite.sortingOrder=2;
+        CharSprite.sortingOrder=4;
     }
     public void Un_NPC()
     {
