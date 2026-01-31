@@ -42,11 +42,16 @@ public class TeleportPoint : MonoBehaviour
         if (teleportLocked)
             return;
 
-        if (collision.CompareTag("Player"))
-        {
-            StartCoroutine(TeleportRoutine(collision.transform));
-        }
+        if (!collision.CompareTag("Player"))
+            return;
+
+        PlayerMovement player = collision.GetComponentInParent<PlayerMovement>();
+        if (player == null)
+            return;
+
+        StartCoroutine(TeleportRoutine(player.transform));
     }
+
 
     IEnumerator TeleportRoutine(Transform player)
     {
