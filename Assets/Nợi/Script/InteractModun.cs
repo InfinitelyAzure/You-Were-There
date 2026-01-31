@@ -111,6 +111,10 @@ public class NewMonoBehaviourScript : MonoBehaviour
                 rb.constraints |= RigidbodyConstraints2D.FreezePosition;
                 GetComponent<PlayerMovement>().enabled=false;
             break;
+            case InteractType.Door:
+            Target.GetComponent<Animator>().SetTrigger("Open");
+            Target.GetComponentInChildren<CapsuleCollider2D>().enabled=false;
+            break;
         }
     }
     public void Un_Chair()
