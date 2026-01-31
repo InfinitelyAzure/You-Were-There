@@ -16,7 +16,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
         anim=GetComponent<Animator>();
         rb=GetComponent<Rigidbody2D>();
         CharSprite=GetComponent<SpriteRenderer>();
-        
+        TryInteract(currentTarget);
     }
     void Update()
     {
