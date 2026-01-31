@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.Events;
 public class Interactable : MonoBehaviour
 {
-    [Tooltip("Bỏ DialogPregab trong Hierarchy vô đây")] public DialogBehaviour dialogPrefab;
+    [Tooltip("Bỏ DialogPregab trong Hierarchy vô đây")][SerializeField] public DialogBehaviour dialogPrefab;
     [Tooltip("Bỏ Scriptable lời thoại vô đây")][SerializeField] private DialogNodeGraph scriptable;
     public InteractType interactType;
     public Transform PointNUM;
