@@ -1,0 +1,294 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7224970646566955304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -439.20004
+    y: 274
+    width: 190
+    height: 135
+  IsDragging: 0
+  IsSelected: 0
+  _sentence:
+    CharacterName: Father
+    Text: "\u201CCon l\u1EA1i g\xE2y chuy\u1EC7n \u1EDF tr\u01B0\u1EDDng n\u1EEFa
+      h\u1EA3? Sao l\xFAc n\xE0o c\u0169ng l\xE0m m\u1EA5t m\u1EB7t gia \u0111\xECnh
+      th\u1EBF?\u201D"
+    CharacterSprite: {fileID: 0}
+  ParentNodes: []
+  ChildNode: {fileID: 5613909686687356200}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-6461432004039773307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 618.4
+    y: 195.60004
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Narrator
+    Text: " \u201CC\u1EADu b\xE9 \u0111\xF3ng k\xEDn l\xF2ng, gia \u0111\xECnh tan
+      v\u1EE1. Game k\u1EBFt th\xFAc.\u201D"
+    CharacterSprite: {fileID: 0}
+  ParentNodes:
+  - {fileID: -4636370273718661819}
+  ChildNode: {fileID: 0}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-4636370273718661819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.AnswerNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 360.79993
+    y: 270.80002
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  Answers:
+  - "\u201CC\xE1c ng\u01B0\u1EDDi ch\u1EB3ng bao gi\u1EDD hi\u1EC3u t\xF4i!\u201D
+    (\u0111\u1EADp c\u1EEDa b\u1ECF \u0111i)"
+  - "\u201CCon\u2026 con ch\u1EC9 mu\u1ED1n m\u1ECDi ng\u01B0\u1EDDi l\u1EAFng nghe
+    th\xF4i.\u201D"
+  AnswerKeys: []
+  ParentNodes:
+  - {fileID: 8698389286665059747}
+  ChildNodes:
+  - {fileID: -6461432004039773307}
+  - {fileID: 4636597603310560127}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: 2nd Event
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.DialogNodeGraph
+  NodesList:
+  - {fileID: -7224970646566955304}
+  - {fileID: 5613909686687356200}
+  - {fileID: 8698389286665059747}
+  - {fileID: -4636370273718661819}
+  - {fileID: -6461432004039773307}
+  - {fileID: 4636597603310560127}
+  - {fileID: 3976489944325934010}
+  - {fileID: 4365135686577442170}
+  VariablesConfig: {fileID: 0}
+  _localizationTableName: 
+  _characterNamesLocalizationName: 
+  NodeToDrawLineFrom: {fileID: 0}
+  LinePosition: {x: 0, y: 0}
+  IsLocalizationSetUp: 0
+--- !u!114 &3976489944325934010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 888.8
+    y: 350.8
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Mother
+    Text: "\u201CTh\xF4i \u0111\u01B0\u1EE3c, \u0111\u1EC3 mai n\xF3i chuy\u1EC7n
+      ti\u1EBFp.\u201D"
+    CharacterSprite: {fileID: 0}
+  ParentNodes:
+  - {fileID: 4636597603310560127}
+  ChildNode: {fileID: 4365135686577442170}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &4365135686577442170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 1118.4
+    y: 350.80002
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Narrator
+    Text: "\u201CC\u1EADu b\xE9 chia s\u1EBB m\u1ED9t ph\u1EA7n, nh\u01B0ng kho\u1EA3ng
+      c\xE1ch v\u1EABn c\xF2n. D\xF9 v\u1EADy, c\u1EADu v\u1EABn ti\u1EBFp t\u1EE5c
+      b\u01B0\u1EDBc sang m\u1ED9t s\u1EF1 l\u1EF1a ch\u1ECDn quan tr\u1ECDng kh\xE1c.\u201D "
+    CharacterSprite: {fileID: 0}
+  ParentNodes:
+  - {fileID: 3976489944325934010}
+  ChildNode: {fileID: 0}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &4636597603310560127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 644
+    y: 349.20004
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Father
+    Text: " (im l\u1EB7ng, th\u1EDF d\xE0i)"
+    CharacterSprite: {fileID: 0}
+  ParentNodes:
+  - {fileID: -4636370273718661819}
+  ChildNode: {fileID: 3976489944325934010}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &5613909686687356200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -177.60004
+    y: 277.20004
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Mother
+    Text: "\u201CCon ph\u1EA3i m\u1EA1nh m\u1EBD l\xEAn, \u0111\u1EEBng \u0111\u1EC3
+      ng\u01B0\u1EDDi ta coi th\u01B0\u1EDDng. Con y\u1EBFu \u0111u\u1ED1i qu\xE1
+      r\u1ED3i.\u201D"
+    CharacterSprite: {fileID: 0}
+  ParentNodes:
+  - {fileID: -7224970646566955304}
+  ChildNode: {fileID: 8698389286665059747}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &8698389286665059747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::cherrydev.SentenceNode
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 98.400024
+    y: 278.80002
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: Player's Mind
+    Text: "\u201CH\u1ECD kh\xF4ng hi\u1EC3u\u2026 m\xECnh \u0111\xE3 ch\u1ECBu \u0111\u1EF1ng
+      th\u1EBF n\xE0o. Nh\u01B0ng n\u1EBFu m\xECnh n\xF3i ra, li\u1EC7u c\xF3 ai
+      l\u1EAFng nghe?\u201D"
+    CharacterSprite: {fileID: 0}
+  ParentNodes:
+  - {fileID: 5613909686687356200}
+  ChildNode: {fileID: -4636370273718661819}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
