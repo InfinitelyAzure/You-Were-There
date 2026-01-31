@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public int maxHitCount = 5;
     private int currentHit;
     private Vector2 input;
-    private Vector2 lastMoveDir = Vector2.down; // hướng idle mặc định
+    public Vector2 lastMoveDir = Vector2.down; // hướng idle mặc định
 
     void Awake()
     {
