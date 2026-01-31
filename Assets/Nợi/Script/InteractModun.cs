@@ -1,3 +1,4 @@
+using cherrydev;
 using UnityEngine;
 
 public class NewMonoBehaviourScript : MonoBehaviour
@@ -15,6 +16,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
         anim=GetComponent<Animator>();
         rb=GetComponent<Rigidbody2D>();
         CharSprite=GetComponent<SpriteRenderer>();
+        
     }
     void Update()
     {
@@ -31,6 +33,12 @@ public class NewMonoBehaviourScript : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.LeftShift))
                 {
                     Un_Chair();
+                }
+                break;
+            case PlayerType.NPC:
+                if (Input.GetKeyDown(KeyCode.LeftShift))
+                {
+                    
                 }
                 break;
         }
@@ -91,10 +99,18 @@ public class NewMonoBehaviourScript : MonoBehaviour
                 transform.position=Target.PointNUM.position;
                 CharSprite.sortingOrder=Target.Sorting;
                 rb.constraints |= RigidbodyConstraints2D.FreezePosition;
-                anim.SetFloat("LastY",Target.CharFace);
+                anim.SetFloat("LastY",Target.CharFaceY);
+                anim.SetFloat("LastX",Target.CharFaceX);
                 GetComponent<PlayerMovement>().enabled=false;
                 anim.SetBool("Shitdown",true);
-                break;
+            break;
+            case InteractType.NPC:
+            playerType=PlayerType.NPC;
+                Target.dialogPrefab.BindExternalFunction("Un_NPC", Un_NPC);
+                Target.Interact();
+                rb.constraints |= RigidbodyConstraints2D.FreezePosition;
+                GetComponent<PlayerMovement>().enabled=false;
+            break;
         }
     }
     public void Un_Chair()
@@ -103,6 +119,12 @@ public class NewMonoBehaviourScript : MonoBehaviour
         anim.SetBool("Shitdown",false);
         rb.constraints &= ~RigidbodyConstraints2D.FreezePosition;
         GetComponent<PlayerMovement>().enabled=true;
-        CharSprite.sortingOrder=2;
+        CharSprite.sortingOrder=4;
+    }
+    public void Un_NPC()
+    {
+        playerType=PlayerType.None;
+        rb.constraints &= ~RigidbodyConstraints2D.FreezePosition;
+        GetComponent<PlayerMovement>().enabled=true;
     }
 }
