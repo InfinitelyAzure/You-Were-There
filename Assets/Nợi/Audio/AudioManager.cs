@@ -20,6 +20,7 @@ public class AudioManager : MonoBehaviour
 
     // =======================
     Dictionary<SoundID, SoundData> soundDict;
+    Dictionary<string, SoundID> idByName = new();
     List<AudioSource> sfxPool;
 
     const string PREF_BGM_VOL  = "audio_bgm_volume";
@@ -42,18 +43,24 @@ public class AudioManager : MonoBehaviour
         BuildSoundDictionary();
         InitSources();
         LoadSettings();
+        
     }
 
     // =======================
     void BuildSoundDictionary()
     {
         soundDict = new Dictionary<SoundID, SoundData>();
+        idByName  = new Dictionary<string, SoundID>();
+
         foreach (var sound in sounds)
         {
-            if (sound.soundID != null && !soundDict.ContainsKey(sound.soundID))
-                soundDict.Add(sound.soundID, sound);
+            if (sound.soundID == null) continue;
+
+            soundDict[sound.soundID] = sound;
+            idByName[sound.soundID.name] = sound.soundID;
         }
     }
+    
 
     void InitSources()
     {
@@ -71,11 +78,16 @@ public class AudioManager : MonoBehaviour
     // =======================
     #region PLAY API
 
-    public static void Play(SoundID id)
+    public static void Play(string soundName)
     {
-        if (Instance == null || id == null) return;
-        Instance.PlayInternal(id);
+        if (Instance == null) return;
+
+        if (Instance.idByName.TryGetValue(soundName, out var id))
+            Instance.PlayInternal(id);
+        else
+            Debug.LogWarning($"SoundID '{soundName}' not found");
     }
+
 
     void PlayInternal(SoundID id)
     {
