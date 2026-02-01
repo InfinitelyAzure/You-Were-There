@@ -11,12 +11,18 @@ public class NewMonoBehaviourScript : MonoBehaviour
     public PlayerType playerType;
     public Transform InteractPoint;
     public SpriteRenderer CharSprite;
+    public DialogBehaviour dialogPrefab;
+    void Awake()
+    {
+        
+    }
     void Start()
     {
         anim=GetComponent<Animator>();
         rb=GetComponent<Rigidbody2D>();
         CharSprite=GetComponent<SpriteRenderer>();
         TryInteract(currentTarget);
+        dialogPrefab.BindExternalFunction("Un_NPC", Un_NPC);
     }
     void Update()
     {
