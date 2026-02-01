@@ -15,8 +15,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -390.40005
-    y: 296.40002
+    x: -1244.8004
+    y: 295.59998
     width: 190
     height: 135
   IsDragging: 0
@@ -26,7 +26,7 @@ MonoBehaviour:
     Text: "\u201CCon l\u1EA1i g\xE2y chuy\u1EC7n \u1EDF tr\u01B0\u1EDDng n\u1EEFa
       h\u1EA3? Sao l\xFAc n\xE0o c\u0169ng l\xE0m m\u1EA5t m\u1EB7t gia \u0111\xECnh
       th\u1EBF?\u201D"
-    CharacterSprite: {fileID: 0}
+    CharacterSprite: {fileID: -1835478196458762764, guid: f090cdaa33cad7648b6091c36245850b, type: 3}
   ParentNodes: []
   ChildNode: {fileID: 5613909686687356200}
   _isExternalFunc: 0
@@ -48,8 +48,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 667.19946
-    y: 218.00006
+    x: -187.20007
+    y: 217.20001
     width: 190
     height: 135
   IsDragging: 1
@@ -81,8 +81,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 409.59995
-    y: 293.20004
+    x: -444.8003
+    y: 292.4
     width: 190
     height: 135
   IsDragging: 1
@@ -140,8 +140,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 937.6011
-    y: 373.2
+    x: 83.19995
+    y: 372.39996
     width: 190
     height: 135
   IsDragging: 1
@@ -150,7 +150,7 @@ MonoBehaviour:
     CharacterName: Mother
     Text: "\u201CTh\xF4i \u0111\u01B0\u1EE3c, \u0111\u1EC3 mai n\xF3i chuy\u1EC7n
       ti\u1EBFp.\u201D"
-    CharacterSprite: {fileID: 0}
+    CharacterSprite: {fileID: -1364766903874834521, guid: 713e1e4be6e1a31489b48a6c45a8589e, type: 3}
   ParentNodes:
   - {fileID: 4636597603310560127}
   ChildNode: {fileID: 4365135686577442170}
@@ -173,8 +173,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 1167.2013
-    y: 373.20004
+    x: 312.7986
+    y: 372.4
     width: 190
     height: 135
   IsDragging: 1
@@ -207,8 +207,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 692.79944
-    y: 371.60007
+    x: -161.60052
+    y: 370.80002
     width: 190
     height: 135
   IsDragging: 1
@@ -216,7 +216,7 @@ MonoBehaviour:
   _sentence:
     CharacterName: Father
     Text: " (im l\u1EB7ng, th\u1EDF d\xE0i)"
-    CharacterSprite: {fileID: 0}
+    CharacterSprite: {fileID: -1835478196458762764, guid: f090cdaa33cad7648b6091c36245850b, type: 3}
   ParentNodes:
   - {fileID: -4636370273718661819}
   ChildNode: {fileID: 3976489944325934010}
@@ -239,8 +239,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -128.80005
-    y: 299.60007
+    x: -983.2001
+    y: 298.80002
     width: 190
     height: 135
   IsDragging: 1
@@ -250,7 +250,7 @@ MonoBehaviour:
     Text: "\u201CCon ph\u1EA3i m\u1EA1nh m\u1EBD l\xEAn, \u0111\u1EEBng \u0111\u1EC3
       ng\u01B0\u1EDDi ta coi th\u01B0\u1EDDng. Con y\u1EBFu \u0111u\u1ED1i qu\xE1
       r\u1ED3i.\u201D"
-    CharacterSprite: {fileID: 0}
+    CharacterSprite: {fileID: -1364766903874834521, guid: 713e1e4be6e1a31489b48a6c45a8589e, type: 3}
   ParentNodes:
   - {fileID: -7224970646566955304}
   ChildNode: {fileID: 8698389286665059747}
@@ -273,8 +273,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 147.19998
-    y: 301.20004
+    x: -707.2003
+    y: 300.4
     width: 190
     height: 135
   IsDragging: 1
@@ -284,7 +284,7 @@ MonoBehaviour:
     Text: "\u201CH\u1ECD kh\xF4ng hi\u1EC3u\u2026 m\xECnh \u0111\xE3 ch\u1ECBu \u0111\u1EF1ng
       th\u1EBF n\xE0o. Nh\u01B0ng n\u1EBFu m\xECnh n\xF3i ra, li\u1EC7u c\xF3 ai
       l\u1EAFng nghe?\u201D"
-    CharacterSprite: {fileID: 0}
+    CharacterSprite: {fileID: 3665388800741160985, guid: 775a0242812273140904513bc95bf06b, type: 3}
   ParentNodes:
   - {fileID: 5613909686687356200}
   ChildNode: {fileID: -4636370273718661819}
