@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9092985905458816527}
   - component: {fileID: 7651045138440299861}
   - component: {fileID: 5569380146897227716}
+  - component: {fileID: 453587318380340301}
   m_Layer: 0
   m_Name: SceneLoader
   m_TagString: Untagged
@@ -57,3 +58,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 617cc6f911c36824091de43fe1a08d71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EndingLoader
+--- !u!114 &453587318380340301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477056498580065681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84ca1642c0fad8346a977cbcdecb12f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogSceneLoader
