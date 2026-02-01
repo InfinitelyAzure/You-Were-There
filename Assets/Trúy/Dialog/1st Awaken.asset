@@ -15,8 +15,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 280.79996
-    y: 249.20001
+    x: 170.40057
+    y: 257.19992
     width: 190
     height: 135
   IsDragging: 1
@@ -49,24 +49,24 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 1241.6
-    y: 246
+    x: 1155.9994
+    y: 256.3999
     width: 190
-    height: 135
+    height: 155
   IsDragging: 1
   IsSelected: 0
   _sentence:
-    CharacterName: Player
+    CharacterName: Nam
     Text: "\u201CCu\u1ED9c \u0111\u1EDDi v\u1EABn c\xF2n d\xE0i\u2026 nh\u01B0ng
       n\u1EBFu ti\u1EBFp t\u1EE5c im l\u1EB7ng, m\xECnh s\u1EBD m\xE3i b\u1ECB ch\xF4n
       v\xF9i trong b\xF3ng t\u1ED1i. Gi\u1EDD th\xEC m\xECnh ph\u1EA3i \u0111\u1ED1i
       di\u1EC7n v\u1EDBi t\u1EA5t c\u1EA3.\u201D"
-    CharacterSprite: {fileID: 0}
+    CharacterSprite: {fileID: 3665388800741160985, guid: 775a0242812273140904513bc95bf06b, type: 3}
   ParentNodes:
   - {fileID: 4131358046793042057}
   ChildNode: {fileID: 0}
-  _isExternalFunc: 0
-  _externalFunctionName: 
+  _isExternalFunc: 1
+  _externalFunctionName: FadeOut
   CharacterNameKey: 
   SentenceTextKey: 
 --- !u!114 &-2391293091732864839
@@ -84,8 +84,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 512
-    y: 256.40002
+    x: 401.60022
+    y: 264.39993
     width: 190
     height: 135
   IsDragging: 1
@@ -143,12 +143,12 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 764.8
-    y: 246.00003
+    x: 654.4001
+    y: 253.99994
     width: 190
     height: 135
   IsDragging: 1
-  IsSelected: 1
+  IsSelected: 0
   _sentence:
     CharacterName: Narrator
     Text: "Gi\u1EDD \u0111\xE2y, b\u1EA1n ph\u1EA3i t\xECm c\xE1ch s\u1ED1ng h\u1EA1nh
@@ -179,17 +179,17 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 1029.5999
-    y: 246.79996
+    x: 919.1997
+    y: 254.79987
     width: 190
     height: 135
   IsDragging: 1
   IsSelected: 0
   _sentence:
-    CharacterName: 'Player '
+    CharacterName: Nam
     Text: " \u201CM\xECnh\u2026 v\u1EABn c\xF2n s\u1ED1ng. T\u1EA1i sao l\u1EA1i
       ch\u1ECDn c\xE1ch ngu ng\u1ED1c \u0111\xF3 ch\u1EE9\u2026\u201D"
-    CharacterSprite: {fileID: 0}
+    CharacterSprite: {fileID: 3665388800741160985, guid: 775a0242812273140904513bc95bf06b, type: 3}
   ParentNodes:
   - {fileID: 1662397089346111542}
   ChildNode: {fileID: -2900554050913095589}

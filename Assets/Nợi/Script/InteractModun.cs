@@ -11,12 +11,18 @@ public class NewMonoBehaviourScript : MonoBehaviour
     public PlayerType playerType;
     public Transform InteractPoint;
     public SpriteRenderer CharSprite;
+    public DialogBehaviour dialogPrefab;
+    void Awake()
+    {
+        
+    }
     void Start()
     {
         anim=GetComponent<Animator>();
         rb=GetComponent<Rigidbody2D>();
         CharSprite=GetComponent<SpriteRenderer>();
-        
+        TryInteract(currentTarget);
+        dialogPrefab.BindExternalFunction("Un_NPC", Un_NPC);
     }
     void Update()
     {
@@ -110,6 +116,10 @@ public class NewMonoBehaviourScript : MonoBehaviour
                 Target.Interact();
                 rb.constraints |= RigidbodyConstraints2D.FreezePosition;
                 GetComponent<PlayerMovement>().enabled=false;
+            break;
+            case InteractType.Door:
+            Target.GetComponent<Animator>().SetTrigger("Open");
+            Target.GetComponentInChildren<CapsuleCollider2D>().enabled=false;
             break;
         }
     }

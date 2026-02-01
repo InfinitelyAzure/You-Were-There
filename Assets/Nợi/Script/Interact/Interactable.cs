@@ -26,4 +26,8 @@ public class Interactable : MonoBehaviour
     {
         dialogPrefab.StartDialog(scriptable);
     }
+    public void CloseDoor()
+    {
+        GetComponentInChildren<CapsuleCollider2D>().enabled=true;
+    }
 }
