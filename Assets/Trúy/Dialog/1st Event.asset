@@ -15,8 +15,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -177.6001
-    y: 386.80005
+    x: -623.999
+    y: 356.40002
     width: 190
     height: 135
   IsDragging: 1
@@ -25,7 +25,7 @@ MonoBehaviour:
     CharacterName: Bullies
     Text: "\u201C\xCA, th\u1EB1ng m\u1ECDt s\xE1ch! L\u1EA1i ng\u1ED3i m\u1ED9t m\xECnh
       n\u1EEFa h\u1EA3? \u0110\xFAng l\xE0 \u0111\u1ED3 v\xF4 d\u1EE5ng.\u201D"
-    CharacterSprite: {fileID: 0}
+    CharacterSprite: {fileID: -9043113407656415471, guid: e5e633d9a86ce4a4891d23ce2fd03be8, type: 3}
   ParentNodes: []
   ChildNode: {fileID: 6452130076202436387}
   _isExternalFunc: 0
@@ -47,8 +47,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 580.80005
-    y: 536.4
+    x: 134.40027
+    y: 505.99994
     width: 190
     height: 135
   IsDragging: 1
@@ -81,8 +81,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 826.3997
-    y: 382.00003
+    x: 379.99973
+    y: 351.6
     width: 190
     height: 135
   IsDragging: 1
@@ -142,8 +142,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 575.1998
-    y: 215.6001
+    x: 128.80005
+    y: 185.20007
     width: 190
     height: 155
   IsDragging: 1
@@ -176,8 +176,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 575.1998
-    y: 384.4001
+    x: 128.80005
+    y: 354.00006
     width: 190
     height: 135
   IsDragging: 1
@@ -186,7 +186,7 @@ MonoBehaviour:
     CharacterName: Bullies
     Text: "\u201C\u1ED2, c\u0169ng bi\u1EBFt ph\u1EA3n kh\xE1ng \xE0? Nh\u01B0ng
       m\xE0y v\u1EABn ch\u1EB3ng l\xE0 g\xEC c\u1EA3.\u201D"
-    CharacterSprite: {fileID: 0}
+    CharacterSprite: {fileID: -9043113407656415471, guid: e5e633d9a86ce4a4891d23ce2fd03be8, type: 3}
   ParentNodes:
   - {fileID: 4542099769291571132}
   ChildNode: {fileID: -5516344873151032590}
@@ -209,8 +209,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 333.59998
-    y: 378.00006
+    x: -112.8
+    y: 347.60004
     width: 190
     height: 155
   IsDragging: 1
@@ -242,8 +242,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 78.3999
-    y: 395.60007
+    x: -367.99963
+    y: 365.20004
     width: 190
     height: 135
   IsDragging: 1
@@ -253,7 +253,7 @@ MonoBehaviour:
     Text: "\u201CM\xECnh ph\u1EA3i l\xE0m g\xEC \u0111\xE2y? N\u1EBFu im l\u1EB7ng,
       ch\xFAng s\u1EBD c\xE0ng l\u1EA5n t\u1EDBi. Nh\u01B0ng n\u1EBFu ph\u1EA3n kh\xE1ng\u2026
       li\u1EC7u c\xF3 ai hi\u1EC3u cho m\xECnh kh\xF4ng?\u201D"
-    CharacterSprite: {fileID: 0}
+    CharacterSprite: {fileID: 3665388800741160985, guid: 775a0242812273140904513bc95bf06b, type: 3}
   ParentNodes:
   - {fileID: -7726407700266087437}
   ChildNode: {fileID: 4542099769291571132}

@@ -15,8 +15,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 231.99997
-    y: 241.20001
+    x: -247.19974
+    y: 321.99994
     width: 190
     height: 135
   IsDragging: 1
@@ -49,8 +49,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 460
-    y: 246
+    x: -19.199905
+    y: 326.79993
     width: 190
     height: 135
   IsDragging: 1
@@ -83,8 +83,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 687.2
-    y: 251.59998
+    x: 208.00034
+    y: 332.3999
     width: 190
     height: 135
   IsDragging: 1
@@ -117,12 +117,12 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 941.6
-    y: 250.80002
+    x: 462.39987
+    y: 331.59995
     width: 190
     height: 135
   IsDragging: 1
-  IsSelected: 1
+  IsSelected: 0
   _sentence:
     CharacterName: Player
     Text: "M\u1EA1nh m\u1EBD \u0111\u1EC3 ch\u1ED1ng l\u1EA1i s\u1EF1 t\xE0n nh\u1EABn,
