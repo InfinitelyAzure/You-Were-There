@@ -9,6 +9,7 @@ public class InteractUIManager : MonoBehaviour
     public static InteractUIManager Instance;
     [SerializeField] public DialogBehaviour dialogPrefab;
     public GameObject panel;
+    public GameObject panelQuest;
     public GameObject TelePoints;
     public TMP_Text interactText;
     public Image PanelDark;
@@ -19,7 +20,7 @@ public class InteractUIManager : MonoBehaviour
         Instance = this;
         Hide();
         dialogPrefab.BindExternalFunction("FadeOut", FadeOut);
-        
+        QuestManager.Instance.StartQuestLine();
     }
 
     public void Show(string text)
@@ -39,7 +40,7 @@ public class InteractUIManager : MonoBehaviour
         StartCoroutine(Fade(1f, 0f));
     }
 
-    IEnumerator Fade(float from, float to)
+    public IEnumerator Fade(float from, float to)
     {
         float time = 0f;
         Color color = PanelDark.color;
@@ -54,7 +55,11 @@ public class InteractUIManager : MonoBehaviour
 
         color.a = to;
         PanelDark.color = color;
-        if (PanelDark.color.a == 0f) TelePoints.SetActive(true);
+        if (PanelDark.color.a == 0f)
+        {
+            panelQuest.SetActive(true);
+            TelePoints.SetActive(true);
+        } 
         
     }
 }
