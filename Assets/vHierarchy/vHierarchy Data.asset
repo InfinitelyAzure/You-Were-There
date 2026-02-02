@@ -15,6 +15,7 @@ MonoBehaviour:
   sceneDatas_byGuid:
     keys:
     - 500face03c89bd04c8e40fa9b354f5b5
+    - f4e89105050a03e449a0d9541e77a1be
     values:
     - goDatas_byGlobalId:
         keys:
@@ -87,6 +88,14 @@ MonoBehaviour:
           isColorRecursive: 0
         - colorIndex: 0
           iconNameOrGuid: Camera Icon
+          isIconRecursive: 0
+          isColorRecursive: 0
+    - goDatas_byGlobalId:
+        keys:
+        - globalObjectIdString: GlobalObjectId_V1-2-f4e89105050a03e449a0d9541e77a1be-2088831083-0
+        values:
+        - colorIndex: 0
+          iconNameOrGuid: AvatarMask On Icon
           isIconRecursive: 0
           isColorRecursive: 0
   bookmarks: []
