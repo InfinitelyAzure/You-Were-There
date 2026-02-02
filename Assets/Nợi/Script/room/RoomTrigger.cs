@@ -6,7 +6,22 @@ public class RoomTrigger : MonoBehaviour
     [SerializeField] private DialogBehaviour dialogPrefab;
     [SerializeField] private DialogNodeGraph scriptable;
     public RoomID roomID;
+    public string questID;
+    public bool autoDisableOnComplete = true;
+    void Start()
+    {
+        QuestManager.Instance.RegisterTrigger(this);
+        gameObject.SetActive(false);
+    }
+     public void Activate()
+    {
+        gameObject.SetActive(true);
+    }
 
+    public void Deactivate()
+    {
+        gameObject.SetActive(false);
+    }
     private void OnTriggerEnter2D(Collider2D other)
 {
     if (other.CompareTag("Player"))

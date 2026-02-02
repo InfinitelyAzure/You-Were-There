@@ -20,7 +20,7 @@ public class InteractUIManager : MonoBehaviour
         Instance = this;
         Hide();
         dialogPrefab.BindExternalFunction("FadeOut", FadeOut);
-        QuestManager.Instance.StartQuestLine();
+        
     }
 
     public void Show(string text)
