@@ -15,8 +15,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -623.999
-    y: 356.40002
+    x: -643.9991
+    y: 336.40002
     width: 190
     height: 135
   IsDragging: 1
@@ -47,8 +47,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 134.40027
-    y: 505.99994
+    x: 114.40027
+    y: 485.99994
     width: 190
     height: 135
   IsDragging: 1
@@ -81,8 +81,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 379.99973
-    y: 351.6
+    x: 359.99973
+    y: 331.6
     width: 190
     height: 135
   IsDragging: 1
@@ -142,12 +142,12 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 128.80005
-    y: 185.20007
+    x: 108.80005
+    y: 165.20007
     width: 190
     height: 155
   IsDragging: 1
-  IsSelected: 0
+  IsSelected: 1
   _sentence:
     CharacterName: Narrator
     Text: "\u201CC\u1EADu b\xE9 ch\u1ECDn im l\u1EB7ng. Nh\u1EEFng l\u1EDDi ch\u1EBF
@@ -158,7 +158,7 @@ MonoBehaviour:
   - {fileID: 4542099769291571132}
   ChildNode: {fileID: 0}
   _isExternalFunc: 1
-  _externalFunctionName: ToBadEnd()
+  _externalFunctionName: ToBadEnd
   CharacterNameKey: 
   SentenceTextKey: 
 --- !u!114 &3318638563437260996
@@ -176,8 +176,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 128.80005
-    y: 354.00006
+    x: 108.80005
+    y: 334.00006
     width: 190
     height: 135
   IsDragging: 1
@@ -209,8 +209,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -112.8
-    y: 347.60004
+    x: -132.8
+    y: 327.60004
     width: 190
     height: 155
   IsDragging: 1
@@ -242,8 +242,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -367.99963
-    y: 365.20004
+    x: -387.99963
+    y: 345.20004
     width: 190
     height: 135
   IsDragging: 1

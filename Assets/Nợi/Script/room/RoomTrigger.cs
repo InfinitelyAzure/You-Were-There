@@ -1,5 +1,6 @@
 using cherrydev;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RoomTrigger : MonoBehaviour
 {
@@ -8,6 +9,10 @@ public class RoomTrigger : MonoBehaviour
     public RoomID roomID;
     public string questID;
     public bool autoDisableOnComplete = true;
+    void Awake()
+    {
+        dialogPrefab.BindExternalFunction("GotoRealEnding", GotoRealEnding);
+    }
     void Start()
     {
         QuestManager.Instance.RegisterTrigger(this);
@@ -40,4 +45,5 @@ public class RoomTrigger : MonoBehaviour
     }
     
 }
+public void GotoRealEnding() => SceneManager.LoadScene("RealEnding");
 }

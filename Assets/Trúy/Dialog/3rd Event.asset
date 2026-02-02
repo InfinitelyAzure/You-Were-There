@@ -15,10 +15,10 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 209.59988
-    y: 287.6
+    x: 151.19986
+    y: 321.2
     width: 190
-    height: 135
+    height: 0
   IsDragging: 1
   IsSelected: 0
   _sentence:
@@ -47,10 +47,10 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 1203.1997
-    y: 280.4
+    x: 1144.7997
+    y: 314
     width: 190
-    height: 135
+    height: 0
   IsDragging: 1
   IsSelected: 0
   _sentence:
@@ -86,7 +86,6 @@ MonoBehaviour:
   - {fileID: 4542099769291571132}
   - {fileID: 2374363298138812000}
   - {fileID: 3318638563437260996}
-  - {fileID: 0}
   - {fileID: -5516344873151032590}
   VariablesConfig: {fileID: 0}
   _localizationTableName: 
@@ -109,8 +108,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 951.99994
-    y: 114.00006
+    x: 893.6
+    y: 147.60007
     width: 190
     height: 155
   IsDragging: 1
@@ -143,17 +142,17 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 951.99994
-    y: 282.80005
+    x: 893.6
+    y: 316.40005
     width: 190
-    height: 135
+    height: 0
   IsDragging: 1
   IsSelected: 0
   _sentence:
     CharacterName: Bullies
     Text: "\u201C\u1ED2, m\xE0y c\u0169ng mu\u1ED1n l\xE0m anh h\xF9ng \xE0? Nh\u01B0ng
       th\xF4i, tao ch\xE1n r\u1ED3i.\u201D"
-    CharacterSprite: {fileID: 0}
+    CharacterSprite: {fileID: -9043113407656415471, guid: e5e633d9a86ce4a4891d23ce2fd03be8, type: 3}
   ParentNodes:
   - {fileID: 4542099769291571132}
   ChildNode: {fileID: -5516344873151032590}
@@ -176,10 +175,10 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 710.39996
-    y: 276.40002
+    x: 652.0001
+    y: 310.00003
     width: 190
-    height: 135
+    height: 115
   IsDragging: 1
   IsSelected: 0
   Answers:
@@ -206,10 +205,10 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 455.1999
-    y: 294.00003
+    x: 396.79987
+    y: 327.60004
     width: 190
-    height: 135
+    height: 0
   IsDragging: 1
   IsSelected: 0
   _sentence:
@@ -218,7 +217,7 @@ MonoBehaviour:
       N\u1EBFu im l\u1EB7ng, m\xECnh s\u1EBD gi\u1ED1ng nh\u01B0 tr\u01B0\u1EDBc
       kia. Nh\u01B0ng n\u1EBFu l\xEAn ti\u1EBFng, li\u1EC7u c\xF3 ai \u0111\u1EE9ng
       v\u1EC1 ph\xEDa m\xECnh?\u201D "
-    CharacterSprite: {fileID: 0}
+    CharacterSprite: {fileID: 3665388800741160985, guid: 775a0242812273140904513bc95bf06b, type: 3}
   ParentNodes:
   - {fileID: -7726407700266087437}
   ChildNode: {fileID: 4542099769291571132}

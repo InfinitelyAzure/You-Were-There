@@ -6,11 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Scene Menu.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: "Assets/Tr\xFAy/MainMenu.unity"
+    guid: 5bc40afb2f42e204c863457042b4a407
   - enabled: 1
     path: Assets/Scenes/Map.unity
     guid: f4e89105050a03e449a0d9541e77a1be
+  - enabled: 1
+    path: "Assets/Tr\xFAy/RealEnding.unity"
+    guid: ca20dc6825afb784b8840b7bb910e315
+  - enabled: 1
+    path: "Assets/Tr\xFAy/BadEnding.unity"
+    guid: af770171a6e48ec4cbf74c6f879259f5
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
