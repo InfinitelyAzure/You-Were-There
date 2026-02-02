@@ -45,6 +45,10 @@ public class AudioManager : MonoBehaviour
         LoadSettings();
         
     }
+    void Start()
+    {
+        Play("1 2");
+    }
 
     // =======================
     void BuildSoundDictionary()

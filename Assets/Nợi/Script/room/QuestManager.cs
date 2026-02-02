@@ -54,7 +54,7 @@ public class QuestManager : MonoBehaviour
         }
 
         panelImage = interactUIManager.PanelDark;
-        SetAlpha(0f);
+        
     }
     void Start()
     {
