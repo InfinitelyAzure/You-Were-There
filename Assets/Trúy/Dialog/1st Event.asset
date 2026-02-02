@@ -15,8 +15,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 27.999939
-    y: 376.40005
+    x: -643.9991
+    y: 336.40002
     width: 190
     height: 135
   IsDragging: 1
@@ -25,7 +25,7 @@ MonoBehaviour:
     CharacterName: Bullies
     Text: "\u201C\xCA, th\u1EB1ng m\u1ECDt s\xE1ch! L\u1EA1i ng\u1ED3i m\u1ED9t m\xECnh
       n\u1EEFa h\u1EA3? \u0110\xFAng l\xE0 \u0111\u1ED3 v\xF4 d\u1EE5ng.\u201D"
-    CharacterSprite: {fileID: 0}
+    CharacterSprite: {fileID: -9043113407656415471, guid: e5e633d9a86ce4a4891d23ce2fd03be8, type: 3}
   ParentNodes: []
   ChildNode: {fileID: 6452130076202436387}
   _isExternalFunc: 0
@@ -47,10 +47,10 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 795.20013
-    y: 526
+    x: 114.40027
+    y: 485.99994
     width: 190
-    height: 155
+    height: 135
   IsDragging: 1
   IsSelected: 0
   _sentence:
@@ -62,8 +62,8 @@ MonoBehaviour:
   ParentNodes:
   - {fileID: 4542099769291571132}
   ChildNode: {fileID: 0}
-  _isExternalFunc: 1
-  _externalFunctionName: ToBadEnd()
+  _isExternalFunc: 0
+  _externalFunctionName: 
   CharacterNameKey: 
   SentenceTextKey: 
 --- !u!114 &-5516344873151032590
@@ -81,8 +81,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 1031.9998
-    y: 371.60004
+    x: 359.99973
+    y: 331.6
     width: 190
     height: 135
   IsDragging: 1
@@ -142,12 +142,12 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 780.79987
-    y: 205.2001
+    x: 108.80005
+    y: 165.20007
     width: 190
     height: 155
   IsDragging: 1
-  IsSelected: 0
+  IsSelected: 1
   _sentence:
     CharacterName: Narrator
     Text: "\u201CC\u1EADu b\xE9 ch\u1ECDn im l\u1EB7ng. Nh\u1EEFng l\u1EDDi ch\u1EBF
@@ -158,7 +158,7 @@ MonoBehaviour:
   - {fileID: 4542099769291571132}
   ChildNode: {fileID: 0}
   _isExternalFunc: 1
-  _externalFunctionName: ToBadEnd()
+  _externalFunctionName: ToBadEnd
   CharacterNameKey: 
   SentenceTextKey: 
 --- !u!114 &3318638563437260996
@@ -176,8 +176,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 780.79987
-    y: 374.0001
+    x: 108.80005
+    y: 334.00006
     width: 190
     height: 135
   IsDragging: 1
@@ -186,7 +186,7 @@ MonoBehaviour:
     CharacterName: Bullies
     Text: "\u201C\u1ED2, c\u0169ng bi\u1EBFt ph\u1EA3n kh\xE1ng \xE0? Nh\u01B0ng
       m\xE0y v\u1EABn ch\u1EB3ng l\xE0 g\xEC c\u1EA3.\u201D"
-    CharacterSprite: {fileID: 0}
+    CharacterSprite: {fileID: -9043113407656415471, guid: e5e633d9a86ce4a4891d23ce2fd03be8, type: 3}
   ParentNodes:
   - {fileID: 4542099769291571132}
   ChildNode: {fileID: -5516344873151032590}
@@ -209,8 +209,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 539.2
-    y: 367.60007
+    x: -132.8
+    y: 327.60004
     width: 190
     height: 155
   IsDragging: 1
@@ -242,8 +242,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 283.99994
-    y: 385.20007
+    x: -387.99963
+    y: 345.20004
     width: 190
     height: 135
   IsDragging: 1
@@ -253,7 +253,7 @@ MonoBehaviour:
     Text: "\u201CM\xECnh ph\u1EA3i l\xE0m g\xEC \u0111\xE2y? N\u1EBFu im l\u1EB7ng,
       ch\xFAng s\u1EBD c\xE0ng l\u1EA5n t\u1EDBi. Nh\u01B0ng n\u1EBFu ph\u1EA3n kh\xE1ng\u2026
       li\u1EC7u c\xF3 ai hi\u1EC3u cho m\xECnh kh\xF4ng?\u201D"
-    CharacterSprite: {fileID: 0}
+    CharacterSprite: {fileID: 3665388800741160985, guid: 775a0242812273140904513bc95bf06b, type: 3}
   ParentNodes:
   - {fileID: -7726407700266087437}
   ChildNode: {fileID: 4542099769291571132}

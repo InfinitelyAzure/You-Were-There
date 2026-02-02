@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::QuestData
   questID: 4
   questTitle: "M\u1EE5c ti\xEAu"
-  questDescription: "V\u1EC1 nh\xE0 n\xF3i chuy\u1EC7n v\u1EDBi ba m\u1EB9"
+  questDescription: "V\u1EC1 nh\xE0 ng\u1ED3i n\xF3i chuy\u1EC7n v\u1EDBi ba m\u1EB9"
   targetRoom: 0

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1948160506649175180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2244489157056573961}
+  - component: {fileID: 5604646391855208834}
+  m_Layer: 0
+  m_Name: MusicMG
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2244489157056573961
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948160506649175180}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 994.4143, y: 591.3545, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5604646391855208834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948160506649175180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bc4ca4ac3f07e945a300223bfce6cea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
+  sounds:
+  - {fileID: 11400000, guid: 159ec22ffb46d0540999743da31dec06, type: 2}
+  - {fileID: 11400000, guid: 840c01b4983fd4a45acaae2b98ea5b1e, type: 2}
+  - {fileID: 11400000, guid: 52eb71b559ec7c247b62866ad21cb033, type: 2}
+  - {fileID: 11400000, guid: dc6622369d80d2d49b1b3f04a8032ea0, type: 2}
+  - {fileID: 11400000, guid: 032f949c59fef614bac7a29a9121ba58, type: 2}
+  - {fileID: 11400000, guid: 97588d835ebc3414eb39cca4bc2e76a0, type: 2}
+  mixer: {fileID: 24100000, guid: c5ec49c79da351846b7a338e2d26c922, type: 2}
+  bgmVolumeParam: BG
+  sfxVolumeParam: SFX
+  bgmSource: {fileID: 0}
+  sfxPoolSize: 10

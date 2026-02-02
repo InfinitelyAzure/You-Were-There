@@ -2,6 +2,7 @@ using System.Collections;
 using cherrydev;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class InteractUIManager : MonoBehaviour
@@ -20,7 +21,7 @@ public class InteractUIManager : MonoBehaviour
         Instance = this;
         Hide();
         dialogPrefab.BindExternalFunction("FadeOut", FadeOut);
-        QuestManager.Instance.StartQuestLine();
+        dialogPrefab.BindExternalFunction("GotoBadending", GotoBadending);
     }
 
     public void Show(string text)
@@ -39,7 +40,10 @@ public class InteractUIManager : MonoBehaviour
         StopAllCoroutines();
         StartCoroutine(Fade(1f, 0f));
     }
-
+    public void GotoBadending()
+    {
+        SceneManager.LoadScene("BadEnding");
+    }
     public IEnumerator Fade(float from, float to)
     {
         float time = 0f;

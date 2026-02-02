@@ -15,8 +15,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 231.99997
-    y: 241.20001
+    x: -200.79971
+    y: 315.5999
     width: 190
     height: 135
   IsDragging: 1
@@ -49,8 +49,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 460
-    y: 246
+    x: 27.200119
+    y: 320.3999
     width: 190
     height: 135
   IsDragging: 1
@@ -83,8 +83,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 687.2
-    y: 251.59998
+    x: 254.40036
+    y: 325.99988
     width: 190
     height: 135
   IsDragging: 1
@@ -117,10 +117,10 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 941.6
-    y: 250.80002
+    x: 509.59988
+    y: 323.5999
     width: 190
-    height: 135
+    height: 155
   IsDragging: 1
   IsSelected: 1
   _sentence:
@@ -132,8 +132,8 @@ MonoBehaviour:
   ParentNodes:
   - {fileID: -2945304845739681403}
   ChildNode: {fileID: 0}
-  _isExternalFunc: 0
-  _externalFunctionName: 
+  _isExternalFunc: 1
+  _externalFunctionName: GotoRealEnding
   CharacterNameKey: 
   SentenceTextKey: 
 --- !u!114 &11400000

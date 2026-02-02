@@ -15,8 +15,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 231.99997
-    y: 241.20001
+    x: 391.99997
+    y: 231.6
     width: 190
     height: 135
   IsDragging: 1
@@ -25,7 +25,7 @@ MonoBehaviour:
     CharacterName: Mother
     Text: "\u201CCon c\xF3 v\u1EBB m\u1EC7t m\u1ECFi. D\xF9 m\u1EB9 kh\xF4ng hi\u1EC3u
       h\u1EBFt, nh\u01B0ng m\u1EB9 mong con \u0111\u1EEBng b\u1ECF cu\u1ED9c.\u201D"
-    CharacterSprite: {fileID: 0}
+    CharacterSprite: {fileID: -1364766903874834521, guid: 713e1e4be6e1a31489b48a6c45a8589e, type: 3}
   ParentNodes: []
   ChildNode: {fileID: -5514307924151899513}
   _isExternalFunc: 0
@@ -47,8 +47,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 460
-    y: 246
+    x: 620
+    y: 236.4
     width: 190
     height: 135
   IsDragging: 1
@@ -57,7 +57,7 @@ MonoBehaviour:
     CharacterName: Player's Mind
     Text: " \u201CC\xF3 l\u1EBD\u2026 h\u1ECD c\u0169ng \u0111ang c\u1ED1 g\u1EAFng
       theo c\xE1ch c\u1EE7a m\xECnh.\u201D"
-    CharacterSprite: {fileID: 0}
+    CharacterSprite: {fileID: 3665388800741160985, guid: 775a0242812273140904513bc95bf06b, type: 3}
   ParentNodes:
   - {fileID: -8619838033436142351}
   ChildNode: {fileID: 0}

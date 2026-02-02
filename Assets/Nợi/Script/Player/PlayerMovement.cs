@@ -5,7 +5,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 4f;
     private Rigidbody2D rb;
-    private Animator anim;
+    public Animator anim;
     public int maxHitCount = 5;
     private int currentHit;
     private Vector2 input;
@@ -16,7 +16,10 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
-
+    void Start()
+    {
+        AudioManager.Play("1 1");
+    }
     void Update()
     {
         ReadInput();
