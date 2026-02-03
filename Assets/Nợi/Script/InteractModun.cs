@@ -1,5 +1,6 @@
 using cherrydev;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class NewMonoBehaviourScript : MonoBehaviour
 {
@@ -23,6 +24,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
         CharSprite=GetComponent<SpriteRenderer>();
         TryInteract(currentTarget);
         dialogPrefab.BindExternalFunction("Un_NPC", Un_NPC);
+        
     }
     void Update()
     {
@@ -31,6 +33,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
         Typestate();
         if(playerType!=PlayerType.None) InteractUIManager.Instance.Hide();
     }
+    
     public void Typestate()
     {
         switch (playerType)

@@ -11,7 +11,7 @@ public class RoomTrigger : MonoBehaviour
     public bool autoDisableOnComplete = true;
     void Awake()
     {
-        dialogPrefab.BindExternalFunction("GotoRealEnding", GotoRealEnding);
+        
     }
     void Start()
     {
@@ -45,5 +45,5 @@ public class RoomTrigger : MonoBehaviour
     }
     
 }
-public void GotoRealEnding() => SceneManager.LoadScene("RealEnding");
+
 }

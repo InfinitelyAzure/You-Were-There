@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::QuestData
   questID: 8
   questTitle: "M\u1EE5c ti\xEAu"
-  questDescription: "L\xEAn phong v\u1EDBi ni\u1EC1m tin"
+  questDescription: "L\xEAn ph\xF2ng v\u1EDBi ni\u1EC1m tin"
   targetRoom: 7

@@ -22,6 +22,7 @@ public class InteractUIManager : MonoBehaviour
         Hide();
         dialogPrefab.BindExternalFunction("FadeOut", FadeOut);
         dialogPrefab.BindExternalFunction("GotoBadending", GotoBadending);
+        dialogPrefab.BindExternalFunction("GotoRealEnding", GotoRealEnding);
     }
 
     public void Show(string text)
@@ -30,7 +31,10 @@ public class InteractUIManager : MonoBehaviour
         panel.SetActive(true);
         interactText.text = text;
     }
-
+    public void GotoRealEnding()
+    {
+        SceneManager.LoadScene("RealEnding");
+    } 
     public void Hide()
     {
         panel.SetActive(false);
