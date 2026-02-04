@@ -2,19 +2,20 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - PlayerTrackerLayer
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enemy
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - PlayerBody
+  - TrackerLayer
+  - Interactable
   - 
   - 
   - 
@@ -38,6 +39,17 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: background
+    uniqueID: 3747754393
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: player?
+    uniqueID: 4069380515
+    locked: 0
+  - name: items
+    uniqueID: 3778920995
+    locked: 0
+  m_RenderingLayers:
+  - Default
